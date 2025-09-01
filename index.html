@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SIGMA KFT Mérnökiroda | Építészeti, statikai, geotechnikai és energetikai tervezés</title>
+  <meta name="description" content="SIGMA KFT Mérnökiroda – építészeti, statikai, geotechnikai, energetikai és tűzvédelmi tervezés Harta és Bács-Kiskun megye területén. Teljes körű mérnöki szolgáltatás egy kézben." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --navy:#1E3A5F; --light:#F5F5F5; --text:#4A4A4A; --accent:#3BAF75;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; color:var(--text); background:#fff;
+      font:16px/1.6 "Open Sans",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    }
+    h1,h2{font-family:"Montserrat",sans-serif; margin:0 0 .5rem}
+    h1{font-weight:700; font-size:clamp(28px,4vw,44px); color:#fff}
+    h2{font-weight:700; font-size:clamp(22px,3vw,32px); color:#0d1b2a}
+    .container{width:min(1100px,92%); margin:auto}
+    .hero{
+      background:var(--navy); color:#fff; padding:64px 0;
+      background-image: radial-gradient(80% 120% at 120% -20%, rgba(255,255,255,.08), transparent);
+      position: relative;
+    }
+    .hero p{margin:.5rem 0 0; opacity:.95; font-size:clamp(16px,2.2vw,20px)}
+    .hero-contact {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      text-align: right;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .hero-contact p {margin: 0;}
+    .hero-contact strong {color: #fff;}
+    section{padding:48px 0}
+    .grid{
+      display:grid; gap:24px;
+      grid-template-columns:repeat(6,1fr);
+    }
+    .service{
+      grid-column:span 2; background:#fff; border:1px solid #e9ecef; border-radius:10px;
+      padding:18px; display:flex; gap:20px; align-items:flex-start;
+    }
+    .service .ico{
+      width:100px;
+      height:auto;
+      flex:0 0 100px;
+    }
+    .service strong {
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 4px;
+      color: var(--accent);
+    }
+    .reasons{display:grid; gap:14px; grid-template-columns:repeat(2,1fr)}
+    .reason{display:flex; gap:10px; align-items:flex-start}
+    .tick{color:var(--accent); font-size:22px; line-height:1}
+    .muted{color:#6b7280}
+    .band{background:var(--light)}
+    .contact{
+      background:#fff; border:1px solid #e9ecef; border-radius:12px; padding:24px;
+    }
+    .contact p{margin:6px 0}
+    footer{padding:24px 0; color:#6b7280; font-size:14px}
+    @media (max-width:900px){
+      .grid{grid-template-columns:repeat(2,1fr)}
+      .service{grid-column:span 1}
+    }
+    @media (max-width:560px){
+      .reasons{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h1>SIGMA KFT MÉRNÖKIRODA</h1>
+      <p>Teljes körű építészeti, statikai, geotechnikai, energetikai és tűzvédelmi tervezés – egy kézben</p>
+      <div class="hero-contact">
+        <p><strong>📞 06 20 9 11 61 65</strong></p>
+        <p><strong>📧 helfrichsalamon@gmail.com</strong></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- SZOLGÁLTATÁSOK -->
+  <section class="container">
+    <h2>Szolgáltatásaink</h2>
+    <p>Mérnökirodánk Hartán és az ország egész területén vállal építészeti tervezést, statikai méretezést, geotechnikai vizsgálatokat, energetikai számításokat és tűzvédelmi dokumentáció készítést.</p>
+    <div class="grid" style="margin-top:18px">
+      <div class="service">
+        <img src="epiteszet.png" alt="Építészeti tervezés – engedélyezési és kiviteli tervek készítése" class="ico">
+        <div>
+          <strong>Építészeti tervezés</strong><br>
+          <span class="muted">Engedélyezési és kiviteli tervek</span>
+        </div>
+      </div>
+      <div class="service">
+        <img src="statika.png" alt="Statikai tervezés – tartószerkezeti méretezés és modellezés" class="ico">
+        <div>
+          <strong>Statikai tervezés</strong><br>
+          <span class="muted">Tartószerkezeti méretezés, modellezés</span>
+        </div>
+      </div>
+      <div class="service">
+        <img src="geotechnika.png" alt="Geotechnikai vizsgálat – talajvizsgálati jelentés készítése" class="ico">
+        <div>
+          <strong>Geotechnikai vizsgálatok</strong><br>
+          <span class="muted">Talajmechanikai szakvélemény</span>
+        </div>
+      </div>
+      <div class="service">
+        <img src="energetika.png" alt="Energetikai számítás – tanúsítványok, megfelelőségek készítése" class="ico">
+        <div>
+          <strong>Energetikai számítások</strong><br>
+          <span class="muted">Tanúsítványok és megfelelőségek</span>
+        </div>
+      </div>
+      <div class="service">
+        <img src="tuzvedelem.png" alt="Tűzvédelmi dokumentáció – koncepció és terv készítése" class="ico">
+        <div>
+          <strong>Tűzvédelmi dokumentáció</strong><br>
+          <span class="muted">Tűzvédelmi tervek és koncepciók</span>
+        </div>
+      </div>
+      <div class="service">
+        <img src="tartoszerkezet.png" alt="Tartószerkezeti szakértés – állapotfelmérés és szakvélemény" class="ico">
+        <div>
+          <strong>Tartószerkezeti szakértés</strong><br>
+          <span class="muted">Állapotfelmérés, szakvélemény</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MIÉRT MI -->
+  <section class="band">
+    <div class="container">
+      <h2>Miért minket válasszon?</h2>
+      <p>Cégünk több szakterületet egyesít egy mérnökirodában: építészet, statika, geotechnika, energetika és tűzvédelem. Tapasztalt mérnökcsapatunk precíz és határidőre elkészített terveket biztosít.</p>
+      <div class="reasons" style="margin-top:12px">
+        <div class="reason"><div class="tick">✓</div><div>Több szakterület – egy mérnökiroda</div></div>
+        <div class="reason"><div class="tick">✓</div><div>Precíz, határidőre elkészített tervek</div></div>
+        <div class="reason"><div class="tick">✓</div><div>Szakmai tapasztalat és naprakész tudás</div></div>
+        <div class="reason"><div class="tick">✓</div><div>Ügyfélközpontú megközelítés</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KAPCSOLAT -->
+  <section class="container">
+    <h2>Lépjen kapcsolatba velünk!</h2>
+    <div class="contact" aria-labelledby="kapcsolat">
+      <p><strong>Cím:</strong> 6326 Harta, Dózsa Gy. u. 75. – Mérnökiroda</p>
+      <p><strong>Telefon:</strong> 06 20 9 11 61 65</p>
+      <p><strong>E-mail:</strong> helfrichsalamon@gmail.com</p>
+    </div>
+  </section>
+
+  <footer class="band">
+    <div class="container">© <span id="year"></span> SIGMA KFT MÉRNÖKIRODA – Építészeti és mérnöki tervezés Harta, Bács-Kiskun megye</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
